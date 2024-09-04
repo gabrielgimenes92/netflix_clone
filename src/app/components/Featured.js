@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './Featured.module.scss';
 
-const Featured = () => {
+const Featured = (props) => {
   return (
     <section className={styles.featured}>
-      <div>Title</div>
+      <div>{props.data.showTitle}</div>
       <div>
         <h2>title 2</h2>
         <p>
