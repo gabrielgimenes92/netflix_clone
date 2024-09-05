@@ -1,4 +1,7 @@
-.show {    
+.show {
+    position: relative;
+    left: 0px;
+    flex-shrink: 0;
     width: 354px;
     height: 198px;
     border-radius: 16px;

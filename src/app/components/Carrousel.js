@@ -1,3 +1,5 @@
+'use client';
+
 import Image from 'next/image';
 import React from 'react';
 import Show from './Show';
@@ -11,7 +13,10 @@ const Carrousel = ({ data }) => {
     <section className={styles.showSection}>
       <h3>{data.title}</h3>
       <div className={styles.showWrapper}>
-        <Show
+        {data.content.map((show) => (
+          <Show showBanner={show.showBanner} showVideo={show.showVideo} />
+        ))}
+        {/* <Show
           showBanner={data.content[0].showBanner}
           showVideo={data.content[0].showVideo}
         />
@@ -26,7 +31,7 @@ const Carrousel = ({ data }) => {
         <Show
           showBanner={data.content[3].showBanner}
           showVideo={data.content[3].showVideo}
-        />
+        /> */}
       </div>
 
       <ul>

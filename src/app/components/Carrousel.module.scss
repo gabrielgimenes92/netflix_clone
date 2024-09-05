@@ -3,7 +3,9 @@
 }
 
 .showWrapper {
+    width: 100%;
     display: flex;
     flex-flow: row nowrap;
+    overflow-y: hidden;
     gap: 1rem;
 }
