@@ -1,21 +1,34 @@
 import Image from 'next/image';
 import React from 'react';
 import Show from './Show';
+import styles from './Carrousel.module.scss';
 
 const Carrousel = ({ data }) => {
   let showBanner = data.content[0].showBanner;
   let showVideo = data.content[0].showVideo;
 
   return (
-    <section>
+    <section className={styles.showSection}>
       <h3>{data.title}</h3>
-      <Show
-        showBanner={data.content[0].showBanner}
-        showVideo={data.content[0].showVideo}
-      />
+      <div className={styles.showWrapper}>
+        <Show
+          showBanner={data.content[0].showBanner}
+          showVideo={data.content[0].showVideo}
+        />
+        <Show
+          showBanner={data.content[1].showBanner}
+          showVideo={data.content[1].showVideo}
+        />
+        <Show
+          showBanner={data.content[2].showBanner}
+          showVideo={data.content[2].showVideo}
+        />
+        <Show
+          showBanner={data.content[3].showBanner}
+          showVideo={data.content[3].showVideo}
+        />
+      </div>
 
-      {/* <Image width={480} height={360} src={data.content[0].showBanner} alt="" />
-      <Image width={320} height={180} src={data.content[0].showVideo} alt="" /> */}
       <ul>
         <li></li>
         <li></li>
