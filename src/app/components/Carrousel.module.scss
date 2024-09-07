@@ -3,9 +3,16 @@
 }
 
 .showWrapper {
+    margin: 0 auto;
+    max-width: 1600px;
     width: 100%;
     display: flex;
     flex-flow: row nowrap;
     overflow-y: hidden;
     gap: 1rem;
+
+    .scrollButton {
+        height: 100%;
+        width: 48px;
+    }
 }

@@ -11,81 +11,101 @@ export const linusTechTipsSection = {
   title: 'Linus Tech Tips',
   content: [
     {
-      showTitle: 'Stock Android isnt what you think it is...',
+      id: 1,
+      showTitle: '1 If you wanted to watch me lose money...',
       showBanner:
         'https://i.ytimg.com/vi/V0r1lr-4_SQ/hqdefault.jpg?s…AFwAcABBg==&rs=AOn4CLAtZHaBlr1R9_2OqnyEo2OkDb70QQ',
-      showVideo:
-        'https://i.ytimg.com/an_webp/V0r1lr-4_SQ/mqdefault_6s.webp?du=3000&sqp=CMyn6LYG&rs=AOn4CLDBsE9owWvs-nm0KbbUZdO4ZVMqhA',
+      showVideo: '/thumbs/video/ltt-01.webp',
       category: 'series',
       episodes: 8,
       tags: ['Excêntrico', 'Complexo', 'Humor ácido'],
     },
     {
-      showTitle: 'Stock Android isnt what you think it is...',
+      id: 2,
+      showTitle: '2 Who has the Worst Setup at Linus Tech Tips',
       showBanner:
         'https://i.ytimg.com/vi/McRkeActwxU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAYR1wTq1ySPZ1yJevjrARNJQ19rw',
-      showVideo:
-        'https://i.ytimg.com/an_webp/McRkeActwxU/mqdefault_6s.webp?du=3000&sqp=CN-46LYG&rs=AOn4CLCBVHBf4PdxL1LJOqjNNl5o4PNI2A',
+      showVideo: '/thumbs/video/ltt-02.webp',
       category: 'series',
       episodes: 8,
       tags: ['Excêntrico', 'Complexo', 'Humor ácido'],
     },
     {
-      showTitle: 'Stock Android isnt what you think it is...',
+      id: 3,
+      showTitle: '3 Stock Android isnt what you think it is...',
       showBanner:
         'https://i.ytimg.com/vi/-hlRB2izres/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBV-LY55h_GlUN8uwCuqxhYG8etLw',
-      showVideo:
-        'https://i.ytimg.com/an_webp/-hlRB2izres/mqdefault_6s.webp?du=3000&sqp=CMO76LYG&rs=AOn4CLDmbeqbr6MTY6LDpc0J5gI72fPsyQ',
+      showVideo: '/thumbs/video/ltt-03.webp',
       category: 'series',
       episodes: 8,
       tags: ['Excêntrico', 'Complexo', 'Humor ácido'],
     },
     {
-      showTitle: 'Stock Android isnt what you think it is...',
+      id: 4,
+      showTitle: '4 Upgrading His Lonely Bachelor Pad',
       showBanner:
         'https://i.ytimg.com/vi/DhISPQFRnDU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDrSekSSVSackr6ymOBmXvVCPiRFA',
-      showVideo:
-        'https://i.ytimg.com/an_webp/DhISPQFRnDU/mqdefault_6s.webp?du=3000&sqp=CLma6LYG&rs=AOn4CLAREDT2L2u3DleNXh3lKllCW2z8fw',
+      showVideo: '/thumbs/video/ltt-04.webp',
       category: 'series',
       episodes: 8,
       tags: ['Excêntrico', 'Complexo', 'Humor ácido'],
     },
     {
-      showTitle: 'Stock Android isnt what you think it is...',
+      id: 5,
+      showTitle: '5 Ill play ANY game you ask on Snapdragon X',
       showBanner:
-        'https://i.ytimg.com/vi/V0r1lr-4_SQ/hqdefault.jpg?s…AFwAcABBg==&rs=AOn4CLAtZHaBlr1R9_2OqnyEo2OkDb70QQ',
-      showVideo:
-        'https://i.ytimg.com/an_webp/V0r1lr-4_SQ/mqdefault_6s.webp?du=3000&sqp=CMyn6LYG&rs=AOn4CLDBsE9owWvs-nm0KbbUZdO4ZVMqhA',
+        'https://i.ytimg.com/vi/yIsoP1RiGnI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAdehOXXsOsSZUJf8t8WUzayVRMVQ',
+      showVideo: '/thumbs/video/ltt-05.webp',
       category: 'series',
       episodes: 8,
       tags: ['Excêntrico', 'Complexo', 'Humor ácido'],
     },
     {
-      showTitle: 'Stock Android isnt what you think it is...',
+      id: 6,
+      showTitle: '6 I Silenced my Gaming PC for $25',
       showBanner:
-        'https://i.ytimg.com/vi/McRkeActwxU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAYR1wTq1ySPZ1yJevjrARNJQ19rw',
-      showVideo:
-        'https://i.ytimg.com/an_webp/McRkeActwxU/mqdefault_6s.webp?du=3000&sqp=CN-46LYG&rs=AOn4CLCBVHBf4PdxL1LJOqjNNl5o4PNI2A',
+        'https://i.ytimg.com/vi/j8IYsQ6QVp8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLANI6Xuw60UPytTjCVlvBnnrwnGjQ',
+      showVideo: '/thumbs/video/ltt-06.webp',
       category: 'series',
       episodes: 8,
       tags: ['Excêntrico', 'Complexo', 'Humor ácido'],
     },
     {
-      showTitle: 'Stock Android isnt what you think it is...',
+      id: 7,
+      showTitle: '7 I will PAY you not to buy this',
       showBanner:
-        'https://i.ytimg.com/vi/-hlRB2izres/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBV-LY55h_GlUN8uwCuqxhYG8etLw',
-      showVideo:
-        'https://i.ytimg.com/an_webp/-hlRB2izres/mqdefault_6s.webp?du=3000&sqp=CMO76LYG&rs=AOn4CLDmbeqbr6MTY6LDpc0J5gI72fPsyQ',
+        'https://i.ytimg.com/vi/GRB8jEQzz6o/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDJjyb-4MKCE-bDk7l16VxdFfNeDA',
+      showVideo: '/thumbs/video/ltt-07.webp',
       category: 'series',
       episodes: 8,
       tags: ['Excêntrico', 'Complexo', 'Humor ácido'],
     },
     {
-      showTitle: 'Stock Android isnt what you think it is...',
+      id: 8,
+      showTitle: '8 I Tried Gaming on a Soviet Hall-Effect Keyboard',
       showBanner:
-        'https://i.ytimg.com/vi/DhISPQFRnDU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDrSekSSVSackr6ymOBmXvVCPiRFA',
-      showVideo:
-        'https://i.ytimg.com/an_webp/DhISPQFRnDU/mqdefault_6s.webp?du=3000&sqp=CLma6LYG&rs=AOn4CLAREDT2L2u3DleNXh3lKllCW2z8fw',
+        'https://i.ytimg.com/vi/g1meziEMdsk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDxmlAFwQTR7GknuQcUH4NJABFaOQ',
+      showVideo: '/thumbs/video/ltt-08.webp',
+      category: 'series',
+      episodes: 8,
+      tags: ['Excêntrico', 'Complexo', 'Humor ácido'],
+    },
+    {
+      id: 9,
+      showTitle: '9 5 Mods Nintendo wishes were Illegal',
+      showBanner:
+        'https://i.ytimg.com/vi/v3JULO-C70U/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtiYov-uR8MGR_Y1QjqmGAgIQXmw',
+      showVideo: '/thumbs/video/ltt-09.webp',
+      category: 'series',
+      episodes: 8,
+      tags: ['Excêntrico', 'Complexo', 'Humor ácido'],
+    },
+    {
+      id: 10,
+      showTitle: '10 Im auctioning HIS collection - Tech Hoarders 2',
+      showBanner:
+        'https://i.ytimg.com/vi/1mHI2sA3KGI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBKFDLD85Uf0C95D8Azvo0eVXrgMQ',
+      showVideo: '/thumbs/video/ltt-10.webp',
       category: 'series',
       episodes: 8,
       tags: ['Excêntrico', 'Complexo', 'Humor ácido'],
